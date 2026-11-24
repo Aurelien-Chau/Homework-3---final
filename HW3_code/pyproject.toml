@@ -1,0 +1,16 @@
+[project]
+name = "math60231-homework-3"
+version = "1.0.0"
+description = "MATH 60231 Financial Econometrics (HEC Montreal), Homework 3: forecast uncertainty, unit roots and rolling ADF tests"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "pyarrow",
+    "scipy",
+    "statsmodels",
+]
+
+[tool.uv]
+package = false
